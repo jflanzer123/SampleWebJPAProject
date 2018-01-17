@@ -29,22 +29,30 @@
 				<tr>
 					<td>${invoice.id}</td>
 					<td>${invoice.description}</td>
-					<td>${invoice.price}</td>
+					<td>$${invoice.price}</td>
 					<td>${invoice.quantity}</td>
-					<td>${invoice.subtotal}</td>
+					<td>$${invoice.subtotal}</td>
 				</tr>
 			</c:forEach>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td>Invoice Subtotal:</td><td>${InvSubtotal}</td>			
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td>Tax:</td><td>${tax}</td>			
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td>Total:</td><td>${total}</td>			
+			</tr>
+			
 		</tbody>
-		
-		
-		
 	</table>
 	<a href = "addInvoiceLine">Add an Invoice Line</a>
 	
-	
 <script src="webjars/jquery/1.9.1/jquery.min.js"></script>
 	    <script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-			
 </div>
 </body>
 </html>
