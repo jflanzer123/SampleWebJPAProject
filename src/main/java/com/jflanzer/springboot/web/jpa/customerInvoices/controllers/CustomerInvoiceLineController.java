@@ -21,6 +21,7 @@ import java.util.List;
 @Controller
 public class CustomerInvoiceLineController {
 	
+	//needs currency formating
 	//dependency injection for Customer's spring data management interface
 	@Autowired
 	CustomerRepository customerRepository;
