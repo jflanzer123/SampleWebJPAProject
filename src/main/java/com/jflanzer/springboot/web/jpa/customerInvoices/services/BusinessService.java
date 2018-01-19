@@ -1,6 +1,5 @@
 package com.jflanzer.springboot.web.jpa.customerInvoices.services;
 
-import java.text.NumberFormat;
 import org.springframework.stereotype.Component;
 import com.jflanzer.springboot.web.jpa.customerInvoices.entities.InvoiceLine;
 
