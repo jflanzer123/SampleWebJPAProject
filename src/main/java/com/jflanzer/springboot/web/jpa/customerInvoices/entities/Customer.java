@@ -1,5 +1,4 @@
 package com.jflanzer.springboot.web.jpa.customerInvoices.entities;
-
 import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.Entity;
@@ -8,12 +7,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-
 @Entity
 public class Customer {
 	
 	//test change commit
-		
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	Integer id;
