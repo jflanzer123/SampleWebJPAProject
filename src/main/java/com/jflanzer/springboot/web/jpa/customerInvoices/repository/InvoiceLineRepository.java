@@ -1,4 +1,4 @@
-package com.jflanzer.springboot.web.jpa.customerInvoices.Repository;
+package com.jflanzer.springboot.web.jpa.customerInvoices.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
