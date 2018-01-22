@@ -8,12 +8,12 @@
 <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
 	    		rel="stylesheet">
 </head>
-<body>
+<body><br><br><br>
 <div class = "container">
 	<font color="red">${message}</font>
 	<form  method="POST">
-		Customer Id:  <input type= "number" name= "id" required/><br>		
-		              <input type = "submit" value = "submit"/>
+		Customer Id:  <input type= "number" name= "id" required/><br><br>		
+		              &nbsp;<input type = "submit" value = "submit"/>
 	</form>
 </div>
 
