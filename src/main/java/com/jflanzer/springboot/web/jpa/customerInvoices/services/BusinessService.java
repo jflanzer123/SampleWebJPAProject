@@ -11,10 +11,7 @@ public class BusinessService {
 	private double tax;
 	private double total;
 	
-<<<<<<< HEAD
-=======
-		
->>>>>>> refs/heads/branch-2
+
 	//method to calculate line subtotals
 	public double CalcLineSubtotal(double price, int quantity) {
 		lineSubtotal = 0;
