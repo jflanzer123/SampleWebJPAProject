@@ -1,6 +1,5 @@
 package com.jflanzer.springboot.web.jpa.customerInvoices.services;
 
-import java.text.NumberFormat;
 import org.springframework.stereotype.Component;
 import com.jflanzer.springboot.web.jpa.customerInvoices.entities.InvoiceLine;
 
@@ -12,6 +11,10 @@ public class BusinessService {
 	private double tax;
 	private double total;
 	
+<<<<<<< HEAD
+=======
+		
+>>>>>>> refs/heads/branch-2
 	//method to calculate line subtotals
 	public double CalcLineSubtotal(double price, int quantity) {
 		lineSubtotal = 0;
