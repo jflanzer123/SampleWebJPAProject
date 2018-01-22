@@ -4,7 +4,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.jflanzer.springboot.web.jpa.customerInvoices.Repository.CustomerRepository;
+import com.jflanzer.springboot.web.jpa.customerInvoices.repository.CustomerRepository;
 import com.jflanzer.springboot.web.jpa.customerInvoices.entities.Customer;
 
 @Component
