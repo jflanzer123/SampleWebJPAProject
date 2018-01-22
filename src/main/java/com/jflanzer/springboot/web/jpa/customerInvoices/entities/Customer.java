@@ -2,20 +2,14 @@ package com.jflanzer.springboot.web.jpa.customerInvoices.entities;
 
 import java.util.ArrayList;
 import java.util.List;
-
-//import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
-//import javax.persistence.OneToMany;
-
 
 @Entity
 public class Customer {
-	
-	
-	
+		
 	@Id
 	@GeneratedValue
 	Integer id;
